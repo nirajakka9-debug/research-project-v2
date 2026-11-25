@@ -1,0 +1,146 @@
+{
+  "user_id": "demo_user",
+  "min_observations": 3,
+  "min_std_floor": 0.001,
+  "observation_count": 3,
+  "is_established": true,
+  "stats": {
+    "speakingRateWpm": {
+      "mean": 99.4667,
+      "std": 42.7033,
+      "min": 60.0,
+      "max": 144.8,
+      "count": 3
+    },
+    "totalPauseCount": {
+      "mean": 7.3333,
+      "std": 4.9329,
+      "min": 4.0,
+      "max": 13.0,
+      "count": 3
+    },
+    "meanPauseDurationMs": {
+      "mean": 679.9667,
+      "std": 295.3224,
+      "min": 352.3,
+      "max": 925.6,
+      "count": 3
+    },
+    "longestPauseDurationMs": {
+      "mean": 1714.1667,
+      "std": 1012.8559,
+      "min": 670.0,
+      "max": 2692.5,
+      "count": 3
+    },
+    "speechRatio": {
+      "mean": 0.7137,
+      "std": 0.0437,
+      "min": 0.686,
+      "max": 0.764,
+      "count": 3
+    },
+    "speechDurationSec": {
+      "mean": 10.3473,
+      "std": 1.7314,
+      "min": 8.546,
+      "max": 11.999,
+      "count": 3
+    },
+    "silenceDurationSec": {
+      "mean": 4.1023,
+      "std": 0.5212,
+      "min": 3.703,
+      "max": 4.692,
+      "count": 3
+    },
+    "pitchMeanHz": {
+      "mean": 178.6733,
+      "std": 20.8267,
+      "min": 163.1,
+      "max": 202.33,
+      "count": 3
+    },
+    "pitchStdDevHz": {
+      "mean": 101.36,
+      "std": 16.0264,
+      "min": 88.4,
+      "max": 119.28,
+      "count": 3
+    },
+    "pitchRangeHz": {
+      "mean": 307.73,
+      "std": 5.8208,
+      "min": 303.37,
+      "max": 314.34,
+      "count": 3
+    },
+    "energyMeanRms": {
+      "mean": 0.0385,
+      "std": 0.0188,
+      "min": 0.0232,
+      "max": 0.0595,
+      "count": 3
+    },
+    "energyStdDev": {
+      "mean": 0.0744,
+      "std": 0.0152,
+      "min": 0.0648,
+      "max": 0.0919,
+      "count": 3
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-11-25T11:40:51.149969+00:00",
+      "features": {
+        "speakingRateWpm": 60.0,
+        "totalPauseCount": 4.0,
+        "meanPauseDurationMs": 925.6,
+        "longestPauseDurationMs": 2692.5,
+        "speechRatio": 0.764,
+        "speechDurationSec": 11.999,
+        "silenceDurationSec": 3.703,
+        "pitchMeanHz": 163.1,
+        "pitchStdDevHz": 88.4,
+        "pitchRangeHz": 303.37,
+        "energyMeanRms": 0.02324,
+        "energyStdDev": 0.06478
+      }
+    },
+    {
+      "timestamp": "2026-11-25T11:41:37.372178+00:00",
+      "features": {
+        "speakingRateWpm": 93.6,
+        "totalPauseCount": 5.0,
+        "meanPauseDurationMs": 762.0,
+        "longestPauseDurationMs": 1780.0,
+        "speechRatio": 0.686,
+        "speechDurationSec": 8.546,
+        "silenceDurationSec": 3.912,
+        "pitchMeanHz": 170.59,
+        "pitchStdDevHz": 96.4,
+        "pitchRangeHz": 305.48,
+        "energyMeanRms": 0.03269,
+        "energyStdDev": 0.06639
+      }
+    },
+    {
+      "timestamp": "2026-11-25T11:42:07.794584+00:00",
+      "features": {
+        "speakingRateWpm": 144.8,
+        "totalPauseCount": 13.0,
+        "meanPauseDurationMs": 352.3,
+        "longestPauseDurationMs": 670.0,
+        "speechRatio": 0.691,
+        "speechDurationSec": 10.497,
+        "silenceDurationSec": 4.692,
+        "pitchMeanHz": 202.33,
+        "pitchStdDevHz": 119.28,
+        "pitchRangeHz": 314.34,
+        "energyMeanRms": 0.05951,
+        "energyStdDev": 0.09192
+      }
+    }
+  ]
+}
